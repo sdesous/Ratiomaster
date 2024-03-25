@@ -29,8 +29,6 @@ docker run -d \
   ghcr.io/sdesous/transmission:latest
 ```
 
-Make sure to replace /path/to/your/download/folder with the absolute path to your download folder.
-
 # How does it works ?
 
 A simple python script monitor the /config/torrents directory and then trigger for each torrent file added in it.
